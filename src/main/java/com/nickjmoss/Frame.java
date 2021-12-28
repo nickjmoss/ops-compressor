@@ -4,7 +4,6 @@ import java.awt.FlowLayout;
 import java.awt.GridLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.io.File;
 
 import javax.swing.BorderFactory;
 import javax.swing.JButton;
@@ -83,7 +82,7 @@ public class Frame {
             public void actionPerformed(ActionEvent e) {
                 JFileChooser chooser = new JFileChooser();
                 chooser.setFileSelectionMode(JFileChooser.FILES_ONLY);
-                chooser.setCurrentDirectory(new File("/Users/nickmoss1999/projects/java_project/ops-compressor"));
+                chooser.setCurrentDirectory(null);
                 chooser.setFileFilter(new FileNameExtensionFilter("Excel files", "xlsx"));
                 int result = chooser.showOpenDialog(null);
 
