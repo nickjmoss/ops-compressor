@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.nickjmoss.AppTest" time="0.031" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/nickmoss1999/projects/java_project/ops-compressor/target/test-classes:/Users/nickmoss1999/projects/java_project/ops-compressor/target/classes:/Users/nickmoss1999/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/nickmoss1999/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/nickmoss1999/.m2/repository/org/apache/poi/poi-ooxml/5.1.0/poi-ooxml-5.1.0.jar:/Users/nickmoss1999/.m2/repository/org/apache/poi/poi/5.1.0/poi-5.1.0.jar:/Users/nickmoss1999/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/nickmoss1999/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/nickmoss1999/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/nickmoss1999/.m2/repository/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0.jar:/Users/nickmoss1999/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.2/xmlbeans-5.0.2.jar:/Users/nickmoss1999/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/nickmoss1999/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/nickmoss1999/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/nickmoss1999/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/nickmoss1999/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/nickmoss1999/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:/Users/nickmoss1999/.m2/repository/com/sun/faces/jsf-api/2.2.20/jsf-api-2.2.20.jar:"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/nickmoss1999/projects/java_project/ops-compressor/target/surefire/surefirebooter5766138929875927001.jar /Users/nickmoss1999/projects/java_project/ops-compressor/target/surefire 2021-12-23T11-15-10_478-jvmRun1 surefire14537405293484141398tmp surefire_05370739722847705694tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/nickmoss1999/projects/java_project/ops-compressor/target/test-classes:/Users/nickmoss1999/projects/java_project/ops-compressor/target/classes:/Users/nickmoss1999/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/nickmoss1999/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/nickmoss1999/.m2/repository/org/apache/poi/poi-ooxml/5.1.0/poi-ooxml-5.1.0.jar:/Users/nickmoss1999/.m2/repository/org/apache/poi/poi/5.1.0/poi-5.1.0.jar:/Users/nickmoss1999/.m2/repository/commons-codec/commons-codec/1.15/commons-codec-1.15.jar:/Users/nickmoss1999/.m2/repository/org/apache/commons/commons-math3/3.6.1/commons-math3-3.6.1.jar:/Users/nickmoss1999/.m2/repository/com/zaxxer/SparseBitSet/1.2/SparseBitSet-1.2.jar:/Users/nickmoss1999/.m2/repository/org/apache/poi/poi-ooxml-lite/5.1.0/poi-ooxml-lite-5.1.0.jar:/Users/nickmoss1999/.m2/repository/org/apache/xmlbeans/xmlbeans/5.0.2/xmlbeans-5.0.2.jar:/Users/nickmoss1999/.m2/repository/org/apache/commons/commons-compress/1.21/commons-compress-1.21.jar:/Users/nickmoss1999/.m2/repository/commons-io/commons-io/2.11.0/commons-io-2.11.0.jar:/Users/nickmoss1999/.m2/repository/com/github/virtuald/curvesapi/1.06/curvesapi-1.06.jar:/Users/nickmoss1999/.m2/repository/org/apache/logging/log4j/log4j-api/2.14.1/log4j-api-2.14.1.jar:/Users/nickmoss1999/.m2/repository/org/apache/commons/commons-collections4/4.4/commons-collections4-4.4.jar:/Users/nickmoss1999/.m2/repository/org/apache/logging/log4j/log4j-core/2.14.1/log4j-core-2.14.1.jar:/Users/nickmoss1999/.m2/repository/com/sun/faces/jsf-api/2.2.20/jsf-api-2.2.20.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/nickmoss1999"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/temurin-17.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/nickmoss1999/projects/java_project/ops-compressor"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="surefire.real.class.path" value="/Users/nickmoss1999/projects/java_project/ops-compressor/target/surefire/surefirebooter5766138929875927001.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.1+12"/>
+    <property name="user.name" value="nickmoss1999"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="11.5"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.1+12"/>
+    <property name="localRepository" value="/Users/nickmoss1999/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/qd/mf27qvjn721f0r5b90hdr3m40000gq/T/"/>
+    <property name="java.version" value="17.0.1"/>
+    <property name="user.dir" value="/Users/nickmoss1999/projects/java_project/ops-compressor"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/nickmoss1999/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.1+12"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="com.nickjmoss.AppTest" time="0.002"/>
+</testsuite>
